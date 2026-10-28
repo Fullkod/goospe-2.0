@@ -18,3 +18,4 @@
 - [Base de datos](reference/base-de-datos.md) — producción real, cómo aplicar migraciones, convenciones
 - [Legacy](reference/legacy.md) — dónde está el Goospe original y qué se saca de él
 - [Pruebas y despliegue](reference/pruebas-y-despliegue.md) — cómo probar y subir sin pisar ni gastar
+- [Correo de Fullkod](reference/correo-fullkod-resend.md) — @fullkod.com va por Resend (contact@, support@), sin reenvío; cada proyecto decide cómo avisar de sus formularios
