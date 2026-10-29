@@ -168,3 +168,8 @@ Variables en Vercel Dashboard:
 ---
 
 **SaaS Factory V4** | Agent-First. Todo es un Skill.
+
+<!-- fullkod-signature -->
+---
+
+<a href="https://fullkod.com/?ref=goospe-2.0"><img src="https://fullkod.com/brand/fullkod-symbol.svg" width="20" height="20" align="center" alt="Fullkod"></a> Built by **[Fullkod](https://fullkod.com/?ref=goospe-2.0)**
