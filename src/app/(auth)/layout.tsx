@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ThemeToggle } from '@/shared/components/theme-toggle'
+import { FullkodCredit } from '@/shared/components/fullkod-credit'
 
 /** Panel de marca (solo tablet/web): degradado, isotipo de fondo y el claim. */
 function BrandPanel() {
@@ -40,6 +41,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
           <ThemeToggle className="ml-auto" />
         </div>
         <main className="my-auto w-full max-w-[400px] self-center py-8">{children}</main>
+        <FullkodCredit className="self-center" />
       </div>
     </div>
   )

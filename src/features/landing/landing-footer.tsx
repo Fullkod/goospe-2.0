@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { FullkodCredit } from '@/shared/components/fullkod-credit'
 import { eyebrow } from '@/shared/lib/ui'
 import { landingContainer } from './landing-shared'
 
@@ -53,7 +54,10 @@ export function LandingFooter({ year }: { year: number }) {
       </div>
       <div className="border-t border-line">
         <div className={`${landingContainer} flex flex-wrap justify-between gap-x-6 gap-y-3 pb-8 pt-5 text-[13px] text-muted`}>
-          <span>© {year} Goospe · Chile</span>
+          <span className="inline-flex flex-wrap items-center gap-x-3 gap-y-1">
+            © {year} Goospe · Chile
+            <FullkodCredit />
+          </span>
           <div className="flex gap-5">
             <Link href="/terms" className={linkClass}>Términos</Link>
             <Link href="/privacy" className={linkClass}>Privacidad</Link>
