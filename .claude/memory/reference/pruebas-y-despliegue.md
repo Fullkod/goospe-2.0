@@ -4,7 +4,7 @@ description: Cómo probar y desplegar sin pisar al usuario ni gastar
 type: reference
 ---
 
-- Despliegue: push a `main` en github.com/CreativesCode/goospe-2.0 → Vercel → https://goospe.vercel.app
+- Despliegue: push a `main` en github.com/Fullkod/goospe-2.0 → Vercel → https://goospe.vercel.app
 - Antes de subir: `npm run typecheck`, `npm test`, `npm run build`. Si corrió un dev server,
   borrar `.next/dev/types` antes del build.
 - El usuario usa el puerto 3000 con su propio servidor: las pruebas van en otro puerto (3211).
